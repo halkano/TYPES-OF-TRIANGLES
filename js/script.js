@@ -10,4 +10,8 @@ if (first === second && second === third && first === third){
 
 alert("Equilateral Triangle");
   }
+  else if(first === second || second === third || first === third){
+
+alert("Isosceles Triangle");
+  }
 };
