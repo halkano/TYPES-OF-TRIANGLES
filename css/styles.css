@@ -2,7 +2,7 @@ body
 {
 	padding:0;
 	margin:0;
-	background-color:blue;
+  background-image: url("../images/A.JPG");
 	 }
    #wrapper
 	 {
@@ -14,6 +14,7 @@ body
 	 	border-bottom: 3px solid#999;
 	 	border-radius: 5px;
 	 	padding-bottom: 20px;
+    background-color: skyblue
  }
  .center
 {
