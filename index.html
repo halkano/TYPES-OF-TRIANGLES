@@ -4,29 +4,24 @@
     <meta charset="utf-8">
     <title>TYPES OF TRIANGLES</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script src="js/script.js" language="Javascript" type="text/javascript">
   </head>
   <body>
 
     <div id="wrapper">
       <div id="menu">
-    <h2>ENTER TRIANGLES SIDES</h2>
+    <h2><em><strong><u>ENTER TRIANGLES SIDES</u></strong></h2>
   </div>
       <div class="center">
-         <div id="Form">
-           <FORM NAME="Triangle_Inputs" METHOD="GET">
-                      <h4>Side 1: </h4><BR>
-                    <INPUT TYPE="Integer" NAME="input1" VALUE=""><P>
-                      <h4>Side 2: </h4><BR>
-                    <INPUT TYPE="Integer" NAME="input2" VALUE=""><P>
+
+                      <h4>Side 1:</h4><BR>
+                    <INPUT TYPE="number" class="one" id="one"><P>
+                      <h4>Side 2:</h4><BR>
+                    <input type="number"  class="two" id="two"><P>
                     <h4>Side 3:</h4> <BR>
-                    <INPUT TYPE="Integer" NAME="input3"  VALUE=""><P>
-                    <INPUT TYPE="button" NAME="Submit" Value="Submit" Class="Submit" onClick="checkinputs()">
-         </form>
+                    <input type="number" class="three" id="three"><P>
+                      <input type="button" onclick="triangleTracker()" value="submit">
         </div>
         </div>
-        </div>
-
-
+        <script type="text/javascript" src="js/script.js"></script>
   </body>
 </html>
