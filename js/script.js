@@ -4,4 +4,10 @@ var triangleTracker = function(){
 var second = document.getElementById("two").value;
 
 var third = document.getElementById("three").value;
+
+
+if (first === second && second === third && first === third){
+
+alert("Equilateral Triangle");
+  }
 };
