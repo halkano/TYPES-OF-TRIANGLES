@@ -6,7 +6,7 @@
 ## var triangleTracker = function(){
             var first = document.getElementById("one").value;
            }
-
+![](images/s.png)
 ## license & copyrite.
 (c) 2018 Henry Halkano, Moringa school of programming
 license under the[MIT license] (LICENSE)
