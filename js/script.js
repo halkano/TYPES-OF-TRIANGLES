@@ -10,15 +10,15 @@ if (first === second && second === third && first === third){
 
 alert("Equilateral Triangle");
   }
-  else if(first === second || second === third || first === third){
+    else if(first === second || second === third || first === third){
 
 alert("Isosceles Triangle");
   }
-  else if((first + second) <= (third) || (first +third) <= (second) (second + third) <= (first)){
+    else if((first + second) <= (third) || (first +third) <= (second) (second + third) <= (first)){
 
 alert("Scalene Triangle");
   }
-else {
+    else {
     alert("NOT a triangle");
   }
 };
